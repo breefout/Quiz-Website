@@ -57,7 +57,7 @@ class App extends React.Component {
           <Card.Header class="question">{"#" + (qIndex+1) + ". " + question.question}</Card.Header>
           <Form style={{margin:"10px"}}>
           <Form.Group>
-            {question.answers.map((answer, aIndex) => <Form.Check style={{marginTop:"10px"}} name={qIndex} key={aIndex} onClick={() => this.updateScore(qIndex, aIndex)} type="radio" label={answer.text} id={answer.text}></Form.Check>)}
+            {question.answers.map((answer, aIndex) => <Form.Check style={{marginTop:"10px"}} name={qIndex} key={aIndex} onClick={() => this.updateScore(qIndex, aIndex)} type="radio" label={answer.text} id={"" + qIndex + aIndex}></Form.Check>)}
           </Form.Group>
           </Form>
         </Card>)}
