@@ -54,29 +54,6 @@
             ]
         },
         {
-            "question": "Are you a touchy person?",
-            "answers": [
-                {
-                    "text": "Yes",
-                    "result": [
-                        5
-                    ]
-                },
-                {
-                    "text": "No",
-                    "result": [
-                        0
-                    ]
-                },
-                {
-                    "text": "Only with my significant other",
-                    "result": [
-                        1
-                    ]
-                }
-            ]
-        },
-        {
             "question": "Do you watch porn?",
             "answers": [
                 {
@@ -1004,36 +981,6 @@
                         0,
                         "a"
                     ]
-                }
-            ]
-        },
-        {
-            "question": "If you were at a party, who do you normally dance with?",
-            "answers": [
-                {
-                    "text": "My friends!!",
-                    "result": [
-                        0
-                    ]
-                },
-                {
-                    "text": "Someone of the opposite gender",
-                    "result": [
-                        0
-                    ]
-                },
-                {
-                    "text": "Someone of the same gender",
-                    "result": [
-                        10
-                    ]
-                },
-                {
-                    "text": "I typically dance alone",
-                    "result": [
-                        0,
-                        "a"
-                    ]
                 },
                 {
                     "text": "I dance with anyone as long as they’re cute!",
@@ -1121,7 +1068,7 @@
     ],
     "responses": [
         {
-            "title": "Asexual",
+            "title": "Asexual...maybe?",
             "minimumScore": 0,
             "maximumScore": 0,
             "description": ""
@@ -1187,14 +1134,14 @@
             "description": "You let your freak flag fly and you don't care what the Karens have to say about it."
         }
     ],
-    "extras": [
-        {
-            "title": "You might be Asexual",
+    "extras": {
+        "asexual": {
+            "title": "You might be asexual.",
             "minimumScore": 8
         },
-        {
-            "title": "Pansexual Tendences",
+        "pansexual": {
+            "title": "You have pansexual tendences.",
             "minimumScore": 5
         }
-    ]
+    }
 }

@@ -10,6 +10,8 @@
     background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
     background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
     padding: 20px 0;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 #quizTitle {
@@ -22,4 +24,15 @@
     -webkit-text-fill-color: transparent;
     text-align: center;
     font-weight: bolder;
+}
+
+#endCard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
 }
